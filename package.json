@@ -1,0 +1,25 @@
+{
+  "name": "sort_big_data",
+  "version": "1.0.0",
+  "description": "sorting big data",
+  "main": "distr/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "sort"
+  ],
+  "author": "Gerasimov Daniil",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.8",
+    "@types/priorityqueuejs": "^1.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "node-oom-heapdump": "^3.2.1"
+  }
+}
